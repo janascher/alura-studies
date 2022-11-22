@@ -1,11 +1,14 @@
-import React from 'react';
+import React from 'react'
+import Form from './components/form'
+import List from './components/list'
 
 function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
+    return (
+        <div className="App">
+            <Form />
+            <List />
+        </div>
+    )
 }
 
-export default App;
+export default App
