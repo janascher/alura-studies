@@ -1,23 +1,24 @@
-import React from 'react'
-import Button from '../button'
+import React from 'react';
+import Button from '../Button';
+import style from './Forms.module.scss';
 
 function Form() {
     return (
-        <form>
-            <div>
+        <form className={style.newTask}>
+            <div className={style.inputContainer}>
                 <label htmlFor="task">Adicione um novo estudo</label>
                 <input
                     type="text"
                     name="task"
                     id="task"
-                    placeholder="O que vocês quer estudar?"
+                    placeholder="O que você quer estudar?"
                     required
                 />
             </div>
-            <div>
+            <div className={style.inputContainer}>
                 <label htmlFor="time">Tempo</label>
                 <input
-                    type="text"
+                    type="time"
                     step="1"
                     name="time"
                     id="time"
@@ -28,7 +29,7 @@ function Form() {
             </div>
             <Button />
         </form>
-    )
+    );
 }
 
-export default Form
+export default Form;

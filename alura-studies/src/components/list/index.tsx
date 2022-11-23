@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import style from './Lists.module.scss';
 
 function List() {
     const tasks = [
@@ -14,20 +15,20 @@ function List() {
             task: 'TypeScript',
             time: '03:00:00',
         },
-    ]
+    ];
     return (
-        <aside>
+        <aside className={style.todoList}>
             <h2>Estudos do dia</h2>
             <ul>
                 {tasks.map((item, index) => (
-                    <li key={index}>
+                    <li className={style.item} key={index}>
                         <h3>{item.task}</h3>
                         <span>{item.time}</span>
                     </li>
                 ))}
             </ul>
         </aside>
-    )
+    );
 }
 
-export default List
+export default List;
