@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '../Button';
 import style from './Forms.module.scss';
 
@@ -27,7 +26,9 @@ function Form() {
                     required
                 />
             </div>
-            <Button />
+            <Button>
+                Adicionar
+            </Button>
         </form>
     );
 }
