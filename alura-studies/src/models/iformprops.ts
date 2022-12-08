@@ -1,5 +1,5 @@
-import { ITask } from "./types/itasktype";
+import { ITask } from './itaskprops';
 
-export interface IFormProps{
-    setTasks: React.Dispatch<React.SetStateAction<ITask[]>>
+export interface IFormProps {
+    setTasks: React.Dispatch<React.SetStateAction<ITask[]>>;
 }

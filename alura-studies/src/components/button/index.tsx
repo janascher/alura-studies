@@ -1,8 +1,7 @@
 import style from './Button.module.scss';
 import { IButtonProps } from '../../models/ibuttonprops';
-import { IButtonType } from '../../models/types/ibuttontype';
 
-function Button({ children }: IButtonProps, {type, onClick}: IButtonType) {
+function Button({ children, type, onClick }: IButtonProps) {
     return (
         <button onClick={onClick} type={type} className={style.button}>
             {children}

@@ -17,4 +17,5 @@ export interface ITaskProps extends ITask {
 
 export interface ITaskSelected {
     selected: ITask | undefined;
+    endTask: () => void;
 }
