@@ -9,7 +9,7 @@
 ## 👀 Preview
 
 <div align="center">
-	<img  src="https://user-images.githubusercontent.com/79182711/208163301-0c2a6d5e-bc04-4025-b1a7-4142363b4004.png"  alt="AluraStudies"  title="AluraStudies"  width="450" />
+	<img  src="https://user-images.githubusercontent.com/79182711/208163301-0c2a6d5e-bc04-4025-b1a7-4142363b4004.png"  alt="AluraStudies"  title="AluraStudies"  width="650" />
 </div>
 
 ## 🧐 Sobre o projeto
@@ -42,8 +42,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[UUID](https://www.uuidgenerator.net/)**
 -   **[Node.js](https://nodejs.org/en/)**
 -   **[NPM](https://www.npmjs.com/)**
-
-## 🦸 Autor
 
 ## 🦸 Autor
 
